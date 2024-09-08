@@ -1,0 +1,291 @@
+/* hero section media query */
+@media (min-width: 340px) and (max-width: 1020px){
+
+  .hero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0%;
+    padding-top: 10%;
+  }
+
+  .left{
+    flex-wrap: wrap;
+  }
+
+  div.left > h1{
+    font-size: 2.5rem;
+  }
+
+  div.left > button{
+    margin-left: 0px;
+    width: 100%;;
+  }
+
+  .numbers{
+    margin: 0px 5px 0px 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .numbers div h3{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .k2{
+    margin: 0px;
+  }
+
+  .numbers div p{
+    margin: 0px;
+    padding: 5px 10px;
+  }
+
+  .right{
+    display: flex;
+  }
+
+  div.right > img{
+    max-height: 300px;
+    min-height: 200px;
+  }
+
+}
+
+/* brand section media query */
+@media (min-width: 340px) and (max-width: 1020px){
+
+  .brand{
+    flex-wrap: wrap;
+    padding: 5px 20px;
+  }
+
+  .logo{
+    height: 7rem;
+    margin: auto;
+  }
+}
+
+/* arrival section media query*/
+@media (min-width: 340px) and (max-width: 1020px){
+
+.new-arrivals{
+  margin: 0px;
+}
+
+.new-arrivals > h2{
+  font-size: 2.5rem;
+}
+
+.arrivals{
+  flex-wrap: wrap;
+}
+
+.arrivals > div{
+  align-items: center;
+}
+
+.img-container{
+  display: flex;
+  justify-content: center;
+}
+
+.arrivals p{
+  text-align: center;
+}
+ 
+.view-all{
+  width: 80%;
+  background-color: white;
+}
+
+}
+
+/* browse by style media query */
+@media (min-width: 340px) and (max-width: 1024px){
+
+  .browse-style-container{
+    margin: 0%;
+  }
+
+  .browse-by-style{
+    margin: 5%;
+    padding: 0cap;
+  }
+
+  .browse-by-style > h2{
+    font-size: 2.5rem;
+  }
+
+  .grid-container h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-bottom: 20px;
+  }
+
+  .grid-container{
+    grid-template: repeat(4 , 1fr) / 1fr;
+    gap: 20px 0px;
+  }
+
+  .formal, .gym, .casual, .party {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .formal img , .casual img , .gym img , .party img{
+    width: 100%;
+    margin: 0%;
+  }
+
+}
+
+/* testimonials media query */
+@media (min-width: 340px) and (max-width: 1024px){
+
+  .testimonials{
+    margin: 0%;
+  }
+
+  .test-head{
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+
+.testimonial-cards{
+  padding: 0%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+  .testimonials h2{
+    font-size: 2.5rem;
+    margin-right: 10%;
+  }
+
+  .arw-btn-cont{
+    margin-right: 0px;
+  }
+
+  .arrow-btn{
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .class-visibility{
+    visibility: hidden;
+    display: none;
+  }
+ .slide{
+  margin-top: 10%;
+ }
+}
+
+/* footer media query */
+@media (min-width: 340px) and (max-width: 1020px){
+  
+  .footer{
+    margin: 0%;
+    padding: 5%;
+  }
+
+  .sub-newsletter{
+    flex-wrap: wrap;
+    padding: 5%;
+    justify-content: center;
+  }
+
+  .sub-newsletter > h2{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .sub > button{
+    padding: 2% 0%;
+    margin: 0%;
+    font-weight: 400;
+  }
+
+  .sub > div{
+    padding: 6px 40px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+  }
+
+  .social-handles{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  .add-info{
+    flex-wrap: wrap;
+  }
+
+  .others{
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  .payment-options{
+    justify-content: center;
+  }
+
+}
+
+@media (max-width:768px){
+ 
+  .home{
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar{
+    width: 100vw;
+    padding: 0%;
+    margin: 0%;
+    justify-content: space-around;
+  }
+
+  /* hamburger */
+  #hamburger{
+    display: block;
+  }
+  /* hamburger */
+  
+  .flex p{
+    display: none;
+  }
+
+  .seacrh-bar{
+    background-color: white;
+    width: max-content;
+    margin-left: 0%;
+    align-self: center;
+  }
+
+  .search-input{
+    display: none;
+  }
+  .seacrh-bar > svg{
+    width: 35px;
+    height: 30px;
+  }
+
+  .nav-icon{
+    margin-left: 0%;
+  }
+
+  .cart-icon{
+    margin-right: 0%;
+  }
+}
